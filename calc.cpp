@@ -10,6 +10,31 @@ class calculate
 		int mul(int x,int y);
 		int div(int x,int y);
 };
+void calculate :: add(int x, int y)
+{
+	int add;
+	add=x+y;
+	cout<<"Addition is "<<add;
+}
+void calculate :: sub(int x, int y)
+{
+	int sub;
+        sub=x-y;
+        cout<<"subtraction  is "<<sub;
+}
+void calculate :: mul(int x, int y)
+{
+	int mul
+        mul=x*y;
+        cout<<"Multiplication is "<<mul;
+}
+void calculate :: div(int x, int y)
+{
+	int div;
+        div=x/y;
+        cout<<"Division is "<<div;
+}
+
 int main()
 {
 	int n
