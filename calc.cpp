@@ -32,7 +32,7 @@ void calculate :: div(int x, int y)
 {
 	int div;
         div=x/y;
-        cout<<"Division is "<<div;
+        cout<<"Division is ______________________"<<div;
 }
 
 int main()
